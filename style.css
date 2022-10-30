@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #be3144;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+    z-index: 10;
+    padding: 20px 0;
+    
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+#navbar a{
+   color: white;
+   font-size: 25px;
+   text-decoration: none;
+   padding: 20px 16px 20px 20px;
+   
+}
+#navbar a:hover {
+    background-color: blue;
+    opacity: 0.8;
+    padding: 20px 0px;
+}
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background-color: #000;
+    color: white;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+h1{
+    font-size: 40px;
+}
+p{
+    color: red;
+}
+#projects{
+    background-color: #45567d;
+    height: 80vh;
+}
+.project-tile{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    color: white;
+    padding-top: 20px;
+}
+img{
+    width: 90%;
+    height: 50vh;
+    padding: 20px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  #profile_link{
+    background-color: whitesmoke;
+    text-align:center;
+  }
